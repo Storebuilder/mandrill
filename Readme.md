@@ -103,7 +103,7 @@ To send a mail using template :
                                       from_email:"thisisatest@yopmail.com",
                                       to:recpts)
     message.tags.add("test")
-    def ret = mandrillService.sendTemplate(message, "templateName", contens )
+    def ret = mandrillService.sendTemplate(message, "templateName", contents )
 
 ### SendResponse
 Per the [Mandrill API](https://mandrillapp.com/api/docs/messages.JSON.html#example-response-send) send calls will respond with:
@@ -130,7 +130,7 @@ Per the [Mandrill API](https://mandrillapp.com/api/docs/messages.JSON.html#examp
 
 These fields will be accessible via a SendResponse object:
 
-    def ret = mandrillService.sendTemplate(message, "templateName", contens )
+    def ret = mandrillService.sendTemplate(message, "templateName", contents )
     if (ret.success) {
         // do successful things
     } else {
