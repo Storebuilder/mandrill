@@ -1,5 +1,6 @@
 Mandrill Grails Plugin
 =============
+Supports grails 1.3.7. Forked from dpacaud/mandrill which supports requires grails 2.0 
 
 This is a Grails plugin for the mandrill (http://www.mandrill.com) REST API
 
