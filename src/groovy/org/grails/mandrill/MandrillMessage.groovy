@@ -14,6 +14,7 @@ class MandrillMessage {
 	boolean track_clicks=false
 	boolean auto_text=false
 	boolean url_strip_qs=false
+	List global_merge_vars = []
 	List<RecipientVars> merge_vars
 	boolean preserve_recipients=false
 	List tags = []
