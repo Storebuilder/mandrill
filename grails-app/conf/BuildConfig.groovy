@@ -12,16 +12,19 @@ grails.project.dependency.resolution = {
     repositories {
 
 	    //To download publicly published plugins & grails libs
-        mavenRepo "http://repo.grails.org/grails/core"
-	    mavenRepo "http://repo.grails.org/grails/plugins"
+        mavenRepo "https://repo.grails.org/artifactory/core/"
+        mavenRepo "https://repo.grails.org/artifactory/plugins/"
+
+        //mavenRepo "http://repo.grails.org/grails/core"
+	    //mavenRepo "http://repo.grails.org/grails/plugins"
         //grailsPlugins()
         //grailsHome()
-        grailsCentral()
+        //grailsCentral()
         
         // uncomment the below to enable remote dependency resolution
         // from public Maven repositories
         //mavenLocal()
-        mavenCentral()
+        //mavenCentral()
         
         //mavenRepo "http://snapshots.repository.codehaus.org"
         //mavenRepo "http://repository.codehaus.org"
